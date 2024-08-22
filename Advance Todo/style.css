@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 5rem;
+    background-color: black;
+    color: aliceblue;
+}
+
+#inputfield{
+    margin-top: 2rem;
+    border: 2px solid  yellow;
+    height: 20px;
+    border-radius: 50px;
+}
+h1{
+    color: gold;
+    
+}
+.btn{
+    padding: 0.5rem;
+    background-color: gold;
+    border-radius: 50px;
+    border: 3px solid white;
+    font-weight: bolder;
+
+}
+.btn:hover{
+    background-color: black;
+    border: 2px solid yellow;
+    color: yellow;
+}
+.delbtn{
+    padding: 0.5rem;
+    background-color: gold;
+    border-radius: 50px;
+    border: 3px solid white;
+    font-weight: bolder;
+}
+li{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}

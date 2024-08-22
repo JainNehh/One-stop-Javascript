@@ -1,0 +1,39 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-direction: column;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 50px;
+}
+.btn{
+border-radius: 30px;
+width: max-content;
+padding: 1rem;
+font-weight: bold;
+border: 2px solid black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.219);
+    padding: 3rem;
+    border-radius: 51px;
+}
+.btn:hover{
+    box-shadow: 1px 1px 5px rgb(239, 22, 199);
+    
+}
